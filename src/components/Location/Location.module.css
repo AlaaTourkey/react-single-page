@@ -1,0 +1,39 @@
+.location {
+    background-color: #2C3E50;
+    color: #fff;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+
+.socials li {
+    display: inline-block;
+    margin: 0%;
+}
+
+.socials i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin: 0 auto;
+    text-align: center;
+    transition: all .5s;
+
+}
+.icon:hover span {
+    background-color: #fff;
+    color: #2C3E50;
+}
